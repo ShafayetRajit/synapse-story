@@ -12,8 +12,13 @@
             display: inline-block
             font-weight: $thin-font
             font-size: 1.4rem
+            color: $beta
             padding: 20px 10px
             text-decoration: none
+            transition: all ease-in-out .2s
+        
+        > .item:hover > .link
+            color: $delta
 
 .nav
     position: absolute
@@ -43,4 +48,4 @@
             width: 70px
 
             &:hover
-                color: $alpha
+                color: $delta
