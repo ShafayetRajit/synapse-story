@@ -20,7 +20,7 @@ resume: false
 resume-external: false
 resume-url: 
 
-url: https://synapse-story.netlify.app/
+url: https://synapse-story.netlify.app
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
@@ -44,12 +44,6 @@ disqus:
 authors:
   shafayetrajit:
     name: Shafayet Rajit
-    bio: 
-    external-image: false
-    picture: 
-    twitter: 
-  jamesfoster:
-    name: 
     bio: 
     external-image: false
     picture: 
