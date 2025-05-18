@@ -20,7 +20,7 @@ resume: false
 resume-external: false
 resume-url: 
 
-url: https://shafayetrajit.github.io/synapse-story
+url: https://synapse-story.netlify.app/
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
