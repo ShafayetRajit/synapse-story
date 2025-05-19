@@ -2,6 +2,7 @@
 title: "Research Paper 101"
 layout: post
 date: 2025-05-17 22:48
+pin: true
 image: 
 headerImage: false
 tag:

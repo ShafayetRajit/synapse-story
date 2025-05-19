@@ -2,6 +2,7 @@
 title: "Early Psychosis Detection using EEG-Derived Features"
 layout: post
 date: 2025-03-12 22:48
+pin: false
 image: 
 headerImage: false
 tag:
