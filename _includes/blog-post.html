@@ -1,12 +1,8 @@
 <div class="item {% if post.star %}star{% endif %}">
     <a class="url" href="{{ site.url }}{{ post.url }}">
         <aside class="date"><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-        {% if post.pin == true %}
-            <h3 class="title">{{ post.title }} <span style="font-size: 1.05em; background-color: #999999;
-                    color: #212529;
-                    padding-left: 0.25rem;
-                    padding-right: 0.25rem;
-                    border-radius: 100%;">🖈</span></h3>
+        {% if post.star == true %}
+            <h3 class="title">{{ post.title }}</h3>
         {% else %}
             <h3 class="title">{{ post.title }}</h3>
         {% endif %}

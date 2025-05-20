@@ -2,7 +2,7 @@
 title: "Molecular-fingerprint based QSAR Analysis to predict SARS-CoV-2 3CLpro inhibitors using enumerated SMILES"
 layout: post
 date: 2025-03-07 22:48
-pin: false
+star: false
 image: 
 headerImage: false
 tag:

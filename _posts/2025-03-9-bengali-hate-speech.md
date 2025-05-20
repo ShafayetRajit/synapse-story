@@ -2,7 +2,7 @@
 title: "Multi-label Classification of Bengali Hate Comments on Social Media"
 layout: post
 date: 2025-03-09 22:48
-pin: false
+star: false
 image: 
 headerImage: false
 tag:

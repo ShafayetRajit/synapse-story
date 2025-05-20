@@ -9,13 +9,13 @@ title: Blog
 	{%- assign blog_posts = site.posts | where: "category", "blog" | where_exp: "post", "post.hidden != true" -%}
 
 	{% for post in blog_posts %}
-		{% if post.pin == true %}
+		{% if post.star == true %}
 			{% include blog-post.html %}
 		{% endif %}
 	{% endfor %}
 
 	{% for post in blog_posts %}
-		{% if post.pin != true %}
+		{% if post.star != true %}
 			{% include blog-post.html %}
 		{% endif %}
 	{% endfor %}

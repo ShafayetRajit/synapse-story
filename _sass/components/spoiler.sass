@@ -5,11 +5,16 @@
         content: ''
         background-color: #fafae0
         position: absolute
+        border-radius: 8px
         top: 0
         bottom: 0
         left: 0
         right: 0
         z-index: 50
+        opacity: 1
+        visibility: visible
+        transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out
 
     &:hover:before
-        display: none
+        opacity: 0
+        visibility: hidden

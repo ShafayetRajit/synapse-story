@@ -2,7 +2,7 @@
 title: "Dialogue Summarization using Gemma 2B"
 layout: post
 date: 2025-03-11 22:48
-pin: false
+star: false
 image: 
 headerImage: false
 tag:
